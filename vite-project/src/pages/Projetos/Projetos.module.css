@@ -1,3 +1,7 @@
+.projetos {
+    z-index: 1;
+}
+
 .projetos h2 {
     color: var(--white);
     text-align: center;

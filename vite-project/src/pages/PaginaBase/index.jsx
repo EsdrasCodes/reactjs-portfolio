@@ -2,13 +2,15 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Container from "../../components/Container";
 import { Outlet } from "react-router-dom";
+import Particles from "../../components/Particles"
 
-function PageBase(){
-    return(
+function PageBase() {
+    return (
         <main>
             <Header />
             <Container>
-                <Outlet/>
+                <Particles />
+                <Outlet />
             </Container>
             <Footer />
         </main>

@@ -1,7 +1,6 @@
-
 .home {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
 
     display: flex;
     align-items: center;
@@ -18,8 +17,24 @@
     font-size: 3rem;
 }
 
-.home span {
-    color: var(--secondary);
+.mainName {
+    color: var(--terceary);
+    overflow: hidden;
+    border-right: .10em solid rgb(153, 0, 255);
+    white-space: nowrap;
+    animation:
+        typing 1s steps(20, end) forwards,
+        blink .8s infinite;
+}
+
+@keyframes blink {
+    from {
+        border-color: transparent
+    }
+
+    to {
+        border-color: rgb(160, 102, 236);
+    }
 }
 
 .apresentacao {
@@ -29,7 +44,7 @@
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-radius: 50px;
-    border: 1px solid rgba(153, 0, 255, 0.18);
+    border: 1px solid rgb(192, 98, 255);
 }
 
 .btn {
@@ -61,7 +76,7 @@
     color: var(--white);
     font-size: 2rem;
     font-weight: bold;
-    
+
     padding: 50px;
     background: rgba(212, 0, 255, 0.25);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -73,5 +88,24 @@
 
 .nameText {
     font-weight: lighter;
+    color: var(--terceary);
 }
 
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #563cb4 #3b114b;
+}
+
+*::-webkit-scrollbar {
+    width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #3b114b;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #563cb4;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
