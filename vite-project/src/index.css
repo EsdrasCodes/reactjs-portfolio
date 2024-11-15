@@ -1,0 +1,22 @@
+:root {
+  font-family: Poppins;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary: #680dc6; 
+  --secondary:  #8328d4; 
+  --terceary:  #9e44e3;
+  --antlast:  #b95ff1;
+  --last:  #d47aff;
+  --black: #170132;
+  --gray: #202020;
+  --white: #eeeeee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

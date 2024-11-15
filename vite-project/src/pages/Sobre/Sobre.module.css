@@ -1,0 +1,78 @@
+.sobre {
+    width: 100%;
+    min-height: 85vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+
+    padding: 50px;
+    background: rgba(212, 0, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 50px;
+    border: 1px solid rgba(153, 0, 255, 0.18);
+}
+
+.bio span {
+    color: var(--terceary);
+    font-weight: bold;
+}
+
+.bio strong {
+    color: var(--secondery);
+    font-weight: bold;
+}
+
+.textos h2, p {
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.techs {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 50px;
+    background: rgba(212, 0, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 50px;
+    border: 1px solid rgba(153, 0, 255, 0.18);
+}
+
+.techs h3 {
+    color: var(--white);
+}
+
+.icones {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icones img {
+    height: 80px;
+}
+
+.avatar {
+    border: 2px solid;
+    border-color: var(--terceary);
+    height: 250px;
+    border-radius: 250px;
+}

@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    min-height: 90vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-block: 1rem;
+    gap: 1rem;
+
+    background: rgb(2, 0, 36);
+    background: linear-gradient(145deg, rgba(2, 0, 36, 1) 0%, rgba(82, 9, 121, 1) 35%, rgba(255, 0, 99, 1) 100%);
+}
