@@ -42,3 +42,7 @@
     height: auto;
     color: var(--terceary);
 }
+
+.icon:hover {
+    color: var(--last);
+}

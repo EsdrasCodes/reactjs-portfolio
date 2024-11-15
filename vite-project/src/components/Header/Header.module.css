@@ -22,7 +22,7 @@
 }
 
 .header a:hover {
-    color: var(--terceary);
+    color: var(--last);
 }
 
 .logo {
