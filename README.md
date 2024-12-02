@@ -1,5 +1,5 @@
 ## Portfólio - Esdras Asa
-Bem-vindo ao meu portfólio! Este é o meu primeiro projeto pessoal usando ReactJS, e estou empolgado para mostrar o que estou aprendendo ao longo da minha jornada como desenvolvedor Full Stack. Este portfólio é um espaço onde compartilho meus projetos, minhas habilidades e um pouco sobre quem sou como profissional.
+Bem-vindo ao meu portfólio! Este é o meu primeiro projeto pessoal usando ReactJS, e estou empolgado para mostrar o que estou aprendendo ao longo da minha jornada como desenvolvedor. Este portfólio é um espaço onde compartilho meus projetos, minhas habilidades e um pouco sobre quem sou como profissional.
 
 Ainda estou em fase de aprendizado, aprimorando constantemente minhas habilidades e explorando novas tecnologias. Espero que este projeto demonstre meu progresso até agora e meu comprometimento em me tornar um desenvolvedor cada vez melhor.
 
@@ -12,7 +12,7 @@ Aqui estão as principais tecnologias que utilizei neste projeto:
 HTML5: Estrutura e semântica da aplicação.
 CSS3: Estilos visuais e animações.
 JavaScript: Manipulação de dados e lógica do projeto.
-ReactJS: Construção de componentes e criação de uma SPA (Single Page Application).
+ReactJS: Construção de componentes.
 React Router: Navegação entre as diferentes páginas do portfólio.
 
 ## 📄 Páginas do Projeto
