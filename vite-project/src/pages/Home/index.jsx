@@ -30,7 +30,7 @@ function Home() {
                         Olá, sou <br />
                         <span id="name" className={styles.mainName}>
                         </span> <br />
-                        Dev Full Stack
+                        Front-end Developer
                     </p>
                     <Link to="/sobre" className={`${styles.btn} ${styles.btn_purple}`}>
                         Saiba mais sobre mim

@@ -3,10 +3,8 @@ import styles from "./Sobre.module.css"
 import avatar from "./images/esdras.png"
 import html5 from "./images/icons8-html5.svg"
 import css3 from "./images/icons8-css3.svg"
-import java from "./images/icons8-java.svg"
 import js from "./images/icons8-js.svg"
-import python from "./images/icons8-python.svg"
-import react from "./images/react.svg"
+
 
 function Sobre() {
     return (
@@ -26,10 +24,7 @@ function Sobre() {
                     <div className={styles.icones}>
                         <img src={html5} alt="icone do html" />
                         <img src={css3} alt="icone do css" />
-                        <img src={java} alt="icone do java" />
                         <img src={js} alt="icone do javascript" />
-                        <img src={python} alt="icone do python" />
-                        <img src={react} alt="icone do react" />
                     </div>
                 </div>
             </section>
