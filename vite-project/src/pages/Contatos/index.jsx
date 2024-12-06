@@ -10,7 +10,7 @@ function Contatos() {
                     <div></div>
                     <p>Contatos</p>
                     <div className={styles.icones}>
-                        <a href={"https://www.linkedin.com/in/esdras-asa-mendes-de-amorim-999448270/"} target="_blank" rel="noopenner norefferer">
+                        <a href={"https://www.linkedin.com/in/esdras-asa-999448270/"} target="_blank" rel="noopenner norefferer">
                             <FaLinkedin className={styles.icon} />
                         </a>
                         <a href={"https://github.com/EsdrasCodes"} target="_blank" rel="noopenner norefferer">
